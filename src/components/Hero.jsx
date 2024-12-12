@@ -118,7 +118,8 @@ const Hero = () => {
                     />
 
                     <video
-                        src={getVideoSrc(currentIndex)}
+                        // src={getVideoSrc(currentIndex)}
+                        src={getVideoSrc(currentIndex == 1 ? 4 : currentIndex - 1)}
                         loop
                         muted
                         autoPlay
